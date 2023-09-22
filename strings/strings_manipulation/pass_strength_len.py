@@ -19,9 +19,12 @@ specialchar_len=len(re.findall(r'[^a-zA-Z0-9]',password))
 
 #check if the password length is greater than 8
 if password_len>8:
+    #Weak - only alphabets or only numbers or only special chars
     if (alpha_len==password_len) or (num_len==password_len) or (specialchar_len==password_len):
         print("Weak password")
+    #check if 3 alphabets, 2 num, and 1 spl char
     elif (alpha_len>3)and (num_len>2) and (specialchar_len>1):
+        #password length is 16 == very strong
         if password_len> 16:
             print("Very strong password")
         else:
