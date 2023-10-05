@@ -1,0 +1,23 @@
+Pseudocodes for some problems :
+
+
+Problem 4:
+You are reponsible for making dinner for your family. Wrtie all the functions and its input/output.
+Eg - buying ingredients, cutting veg, etc.
+
+def FindTheIngredients:
+     def BuyIngedients(amount_given):
+          you can go or send someone else
+          buy ingedients based on the cost of different things
+def cookDish(ingredients,quantity):
+    Put the different ingredients in a proper preplanned order necessary for that particular dish
+    Heat should be properly maintained
+def serveDish(cooked food):
+    get the plates ready
+    dining table must be set
+    serve the food to the plates
+    serve water
+
+
+
+
