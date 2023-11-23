@@ -22,6 +22,7 @@ def LetterBetweenAlpha(aString,alpha):
         
     return alphaFound
 
+#main code
 string=input("Enter the string: ")
 
 if(LetterBetweenAlpha(string,alpha="a")!=True):

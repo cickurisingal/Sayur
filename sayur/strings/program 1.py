@@ -1,6 +1,7 @@
-########## Program 1
+''' Program 1
 #Get an input string from the user. Add a space at every 3rd char.
 #eg input = abcdefg , output = ab cd ef g
+'''
 inputString = input("Enter input string: ")
 i = 0 #counter to track the chars
 newString = ""
